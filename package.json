@@ -1,0 +1,37 @@
+{
+  "name": "mongo-connection-string",
+  "version": "0.1.0",
+  "description": "Handle MongoDB connection strings with ease!",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 8.5.0"
+  },
+  "bin": {
+    "cli": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "debug": "node --inspect-brk index.js",
+    "lint": "eslint --ignore-path .gitignore .",
+    "test": "mocha \"./{,!(node_modules)/**/}*.spec.js\"",
+    "test:debug": "mocha --inspect-brk --watch \"./{,!(node_modules)/**/}*.spec.js\"",
+    "test:coverage": "nyc --reporter=html --report-dir=./artifacts/coverage _mocha \"./{,!(node_modules)/**/}*.spec.js\"",
+    "test:ci": "nyc --reporter=lcov --reporter=html --report-dir=./artifacts/coverage _mocha --reporter mocha-junit-reporter --reporter-options mochaFile=./artifacts/tests/test-report.xml \"./{,!(node_modules)/**/}*.spec.js\"",
+    "release": "npm lint && npm test && standard-version",
+    "preversion": "echo 'Version with \"npm run release\"' && exit 1"
+  },
+  "author": "Dave Kerr <github.com/dwmkerr>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.18.1",
+    "mocha": "^5.0.1",
+    "mocha-junit-reporter": "^1.17.0",
+    "nyc": "^11.4.1",
+    "standard-version": "^4.3.0"
+  },
+  "nyc": {
+    "exclude": "**/*.spec.js"
+  }
+}
