@@ -22,6 +22,10 @@
   },
   "author": "Dave Kerr <github.com/dwmkerr>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dwmkerr/mongo-connection-string.git"
+  },
   "dependencies": {},
   "devDependencies": {
     "chai": "^4.1.2",
