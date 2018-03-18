@@ -1,6 +1,6 @@
 # mongo-connection-string
 
-[![CircleCI](https://circleci.com/gh/dwmkerr/mongo-connection-string.svg?style=shield)](https://circleci.com/gh/dwmkerr/mongo-connection-string) [![codecov](https://codecov.io/gh/dwmkerr/mongo-connection-string/branch/master/graph/badge.svg)](https://codecov.io/gh/dwmkerr/mongo-connection-string)
+[![CircleCI](https://circleci.com/gh/dwmkerr/mongo-connection-string.svg?style=shield)](https://circleci.com/gh/dwmkerr/mongo-connection-string) [![codecov](https://codecov.io/gh/dwmkerr/mongo-connection-string/branch/master/graph/badge.svg)](https://codecov.io/gh/dwmkerr/mongo-connection-string) [![Greenkeeper badge](https://badges.greenkeeper.io/dwmkerr/mongo-connection-string.svg)](https://greenkeeper.io/)
 
 Utilities to help with MongoDB connection strings and related tasks.
 
