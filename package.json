@@ -29,7 +29,7 @@
     "eslint": "^6.0.0",
     "mocha": "^6.0.0",
     "mocha-junit-reporter": "^1.17.0",
-    "nyc": "^14.1.1",
+    "nyc": "^15.0.0",
     "standard-version": "^4.3.0"
   },
   "nyc": {
