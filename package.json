@@ -3,6 +3,12 @@
   "version": "0.1.4",
   "description": "Handle MongoDB connection strings with ease!",
   "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.d.ts",
+    "index.js",
+    "lib/**/*.js"
+  ],
   "engines": {
     "node": ">= 8.5.0"
   },
