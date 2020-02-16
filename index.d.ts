@@ -1,4 +1,4 @@
-type ConnectionInfoObject = {
+export type ConnectionInfoObject = {
   protocol: string;
   username: string | null;
   password: string | null;
